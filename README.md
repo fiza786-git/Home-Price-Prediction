@@ -1,4 +1,4 @@
-# US Home Price Analysis (2004–2024)
+# US Home Price Analysis 
 
 The goal is to analyze publicly available economic factors and explain how they have influenced **US home prices** over the past 20 years.
 
