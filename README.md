@@ -1,14 +1,12 @@
 # US Home Price Analysis (2004–2024)
 
-This project is part of the Stage 1 interview with **Home.LLC** for the **Quantitative Analytics** team.  
 The goal is to analyze publicly available economic factors and explain how they have influenced **US home prices** over the past 20 years.
 
 ---
 
 ## 📊 Problem Statement
+To build a data science model that explains how various macroeconomic and financial factors have impacted U.S. home prices over the last 20 years, using the S&P Case-Shiller Home Price Index as a proxy.
 
-> Build a data science model that explains how publicly available factors have impacted US home prices nationally from 2004 to 2024.  
-> Use the **S&P Case-Schiller Home Price Index** as a proxy for home prices.
 
 ---
 
@@ -24,6 +22,7 @@ All datasets were obtained from [FRED - Federal Reserve Economic Data](https://f
 | Housing Starts       | `HOUST`             | New privately-owned housing starts       |
 | Fed Funds Rate       | `FEDFUNDS`          | Federal interest rate                    |
 | Median Household Income | `MEHOINUSA672N` | Median household income in the US        |
+| MORTGAGE30US.csv        | MortgageRate     | 30-Year Fixed Rate Mortgage Average in the U.S.|
 
 ---
 
@@ -55,21 +54,21 @@ Model showed high performance and generalization across the 20-year dataset.
 - Home prices have seen a sharp rise post-2020, influenced by low interest rates and inflation.
 
 ---
-
 ## 📁 Project Structure
 
 project-root/
 │
-├── CSUSHPISA.csv          
-├── MORTGAGE30US.csv       
-├── UNRATE.csv            
-├── CPIAUCNS.csv           
-├── MEHOINUSA672N.csv       
-├── HOUST.csv              
-├── FEDFUNDS.csv         
+├── CPIAUCNS.csv           # Consumer Price Index
+├── CSUSHPISA.csv          # S&P/Case-Shiller U.S. National Home Price Index
+├── FEDFUNDS.csv           # Federal Funds Rate
+├── HOUST.csv              # Housing Starts Data
+├── MEHOINUSA672N.csv      # Median Household Income
+├── MORTGAGE30US.csv       # 30-Year Fixed Mortgage Rate
+├── UNRATE.csv             # Unemployment Rate
 │
-├── analysis.ipynb         
-├── README.md              
+├── Home_Price_Prediction.ipynb   # Main notebook with full analysis and modeling
+├── README.md                     # Project documentation
+            
 
 
 
