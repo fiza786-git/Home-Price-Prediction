@@ -56,8 +56,20 @@ Model showed high performance and generalization across the 20-year dataset.
 
 ---
 
-## 📂 File Structure
-home-price-analysis/ ├── Home_Price_Analysis.ipynb # Main notebook ├── data/ └── README.md
+## 📁 Project Structure
+
+project-root/
+│
+├── CSUSHPISA.csv          
+├── MORTGAGE30US.csv       
+├── UNRATE.csv            
+├── CPIAUCNS.csv           
+├── MEHOINUSA672N.csv       
+├── HOUST.csv              
+├── FEDFUNDS.csv         
+│
+├── analysis.ipynb         
+├── README.md              
 
 
 
